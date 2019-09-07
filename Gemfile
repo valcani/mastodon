@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 ruby '>= 2.4.0', '< 2.7.0'
-brew install protobuf
 
 gem 'pkg-config', '~> 1.3'
 
@@ -31,8 +30,7 @@ gem 'browser'
 gem 'charlock_holmes', '~> 0.7.6'
 gem 'iso-639'
 gem 'chewy', '~> 5.0'
-gem 'protobuf', '~> 3.10.0'
-gem 'cld3', '~> 3.2.4'
+gem 'cld3', '~> 3.2.2'
 gem 'devise', '~> 4.6'
 gem 'devise-two-factor', '~> 3.0'
 
