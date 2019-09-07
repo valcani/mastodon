@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 ruby '>= 2.4.0', '< 2.7.0'
+bundle install protobuf
 
 gem 'pkg-config', '~> 1.3'
 
